@@ -4,13 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./css/materialize.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container-1">
             <div class="header-menu-inner">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -24,7 +31,7 @@
         </div>
     </header>
     <section class="denis">
-        <div class="container">
+        <div class="container-1">
             <div class="denis-title-inner">
                 <h1>Denis<br>
                     Novik</h1>
@@ -35,11 +42,39 @@
                     <p>|ENG</p>
                 </div>
             </div>
+            <div class="denis-title-inner-2">
+                <div class="denis-title-item-left">
+                    <h1>Denis<br>
+                        Novik</h1>
+                    <h3>UX | UI designer<br>
+                        24 years old, Minsk</h3>
+                </div>
+                <div class="denis-title-item-right">
+                    <div class="menu-burger">
+                        <ul id="slide-out" class="sidenav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About me</a></li>
+                            <li><a href="#">Skills</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contacts</a></li>
+                            <div class="language">
+                                <div class="denis-language">
+                                    <p>RU</p>
+                                    <p>|ENG</p>
+                                </div>
+                            </div>
+                        </ul>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger"><i
+                                class="material-icons">menu</i></a>
+                    </div>
+                </div>
+            </div>
             <img class="main-img" src=" ./img/main-img.png" alt="">
+            <img class="main-img-2" src="./img/main-img-2.png" alt="">
         </div>
     </section>
     <section class="about-me">
-        <div class="container">
+        <div class="container-1">
             <div class="about-me-box">
                 <h3>About me</h3>
                 <div class="about-me-p-flex">
@@ -51,10 +86,21 @@
                         with wonderful people.</p>
                 </div>
             </div>
+            <div class="about-me-box-2">
+                <h3>About me</h3>
+                <div class="about-me-p-flex">
+                    <p>Hi, I'm Denis – UX/UI designer from Minsk.
+                        I'm interested in design and everything connected with it.</p>
+                    <p>I'm studying at courses "Web and mobile design
+                        interfaces" in IT-Academy.</p>
+                    <p>Ready to implement excellent projects
+                        with wonderful people.</p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="scills">
-        <div class="container">
+        <div class="container-1">
             <h2>Skills</h2>
             <p>I work in such programs as</p>
             <div class="skills-inner">
@@ -109,18 +155,33 @@
         </div>
     </section>
     <section class="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <img src="./img/portfolio-1.png" alt="">
-            <p>Online fashion store - Homepage</p>
-            <img src="./img/portfolio-2.png" alt="">
-            <p>Reebok Store - Concept</p>
-            <img src="./img/portfolio-3.png" alt="">
-            <p>Braun Landing Page - Concept</p>
+        <div class="container-1">
+            <div class="portfolio-var-1">
+                <h2>Portfolio</h2>
+                <img src="./img/portfolio-1.png" alt="">
+                <p>Online fashion store - Homepage</p>
+                <img src="./img/portfolio-2.png" alt="">
+                <p>Reebok Store - Concept</p>
+                <img src="./img/portfolio-3.png" alt="">
+                <p>Braun Landing Page - Concept</p>
+            </div>
+            <div class="portfolio-var-2">
+                <div class="portfolio">
+                    <h2>Portfolio</h2>
+                    <img src="./img/portfolio-var-2-1.png" alt="">
+                    <p>Online fashion store - Homepage</p>
+                    <img src="./img/portfolio-var-2-2.png" alt="">
+                    <p>Reebok Store - Concept</p>
+                    <img src="./img/portfolio-var-2-3.png" alt="">
+                    <p>Braun Landing Page - Concept</p>
+                </div>
+            </div>
+
+
         </div>
     </section>
     <section class="contacts">
-        <div class="container">
+        <div class="container-1">
             <h2>Contacts</h2>
             <p>Want to know more or just chat?<br>You are welcome!</p>
             <a href="#">Send message</a>
@@ -133,6 +194,9 @@
             <p>Like me on LinkedIn,<br>Instagram, Behance, Dribble</p>
         </div>
     </section>
+
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 
 </html>
